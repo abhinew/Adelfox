@@ -165,10 +165,8 @@ padding-right: 15px;
 }
 
 
-.purchase-section {
-	background-color: #ecf1f5;
-}
-.purchase-section h3 {
+
+.purchase-caption h2 {
 color: #303539;
 margin-top: 0px;
 text-transform: capitalize;
@@ -256,7 +254,7 @@ text-transform: capitalize;
 	background-color: #21c2f8;
 	/* color:  #ffffff; */
 }
-.featured-products {                                          
+.ash-bg {                                          
 	background-color: #eff4f7;
 }
 
@@ -287,13 +285,13 @@ text-transform: capitalize;
 	
 }
 
-.featured-products .inner-content h2 {
+.inner-content h2 {
 	font-weight: normal;
 	text-align: center;
 	text-transform: capitalize;
 	color:  #2e383a;
 	font-size: 34px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-top: 50px;
 	font-family: "Verdana";
 }
@@ -512,5 +510,66 @@ content: '';
 	float: left;
 }
 
+.adelfox-design:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+	
+.adelfox-capabilities {
+    margin-top: 50px;
+	
+}
+.adelfox-capabilities > h2 {
+	text-align: center;
+}
 
+.adelfox-capabilities > div {	
+width: 25%;
+float: left;
+height: 100px;
+padding-top: 139px;
+text-align: center;
+padding-bottom: 30px;
+background-position: 50px 0px;
+}
+.photoshop {
+	background: url(images/ps.png) no-repeat;
+}
 
+.javascript {
+	background: url(images/js.png) no-repeat;
+}
+
+.photography {
+	background: url(images/pg.png) no-repeat;
+}
+
+.wordpress {
+	background: url(images/wp.png) no-repeat;
+}
+
+.adelfox-capabilities:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.why-adelfox {
+	float: left;
+}
+
+.motive {
+	padding: 10px;
+	border: 1px solid #e0e5e8;
+	color: #6b7376;
+	width: 470px;
+}
+
+.brief {
+	color: #9eaab6;
+}
+
+.accordion-section {
+	background-color: 
+	
