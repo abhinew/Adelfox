@@ -32,9 +32,9 @@ body {
 }
 
 
-.inner-content span {
+.header-section > .inner-content span {
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 15px;
 	padding-left: 30px;
 }
 .inner-content span span {
@@ -250,16 +250,19 @@ text-transform: capitalize;
 }
 
 
-.selected {
+.menu-options li.selected {
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
 	background-color: #21c2f8;
+	/* color:  #ffffff; */
 }
-.featured-products {
+.featured-products {                                          
 	background-color: #eff4f7;
 }
 
-
+.menu-options li.selected a {
+	color: #ffffff;
+}
 .menu-options {
 	list-style-type: none;
 	
@@ -269,12 +272,245 @@ text-transform: capitalize;
 
 .menu-options li a {
 	text-decoration: none;
+	color: #9da7a9;
+	text-transform: capitalize;
 	/* border: 1px solid #ebebeb; */
-	padding: 13px;
-	background-color: #ffffff;
+	/* padding: 13px; */
+	/* background-color: #ffffff; */
 }
 
 .menu-options li {
 	display: inline;
+	padding: 9px 20px;
+	background-color: #ffffff;
+	
+	
 }
-		
+
+.featured-products .inner-content h2 {
+	font-weight: normal;
+	text-align: center;
+	text-transform: capitalize;
+	color:  #2e383a;
+	font-size: 34px;
+	padding-bottom: 40px;
+	padding-top: 50px;
+	font-family: "Verdana";
+}
+
+
+.collage {
+	float: left;
+}
+
+
+.work-title {
+	background-color: #30393e;
+	display: inline-block;
+	width: 320px;
+	vertical-align: top;
+}
+
+.work-title-content {
+	padding: 20px;
+	
+	/* height: 180px; */
+}
+
+.work-title-content > h3 {
+	color:#f9feff;
+	font-weight:  normal;
+}
+.work-title-content > p {
+	color: #707b7f;
+}
+
+.work-title-footer {
+	background-color: #121413;
+	height: 55px;
+}
+
+.work-title-footer > .work-title-content > a {
+	color: #32ccfe;
+	text-decoration: none;
+}
+	
+.view-more-icon {
+	float: right;
+}
+.blue {
+	background-color: #76bfea;
+}
+
+
+.blue > .work-title-footer > .work-title-content > a {
+	color: #fffcf7;
+}	
+
+.blue > .work-title-content > p {	
+	color: #fffcf7;
+}
+.blue > .work-title-footer {
+	background-color: #0072a8;
+}
+
+.left-arrow {
+	display:  inline-block;
+	vertical-align: 200px;
+	border-color: transparent #2f383d;
+	border-style: solid;
+	border-width: 15px 15px 15px 0px;
+	height: 0px;
+	width: 0px; 
+}
+
+
+.img-navigation {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom:  30px;
+	/* margin-top: 50px; */
+	/* height: 129px; */
+}
+
+.img-navigation a {
+	background-color: #ced0cd;
+	width: 10px;
+	height: 10px;
+	display:  inline-block;
+	border-radius: 10px;
+}
+
+
+.img-navigation {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.img-navigation a.selected {
+	background-color: #20c4f9;
+}
+
+.mobile-display {
+	background-image: url(images/bg-img.png);
+	height: 622px;
+}
+
+.mobile-display-content > div {
+	padding-left: 100px;
+}
+.mobile-display:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.mobile-display-content {
+	float: right;
+	width: 500px;
+	/* padding-right: 600px; */
+	padding-top: 100px;
+}
+
+.smart-display {
+	background: url(images/hex1.png) no-repeat;
+}
+
+.user-friendly {
+	background: url(images/hex2.png) no-repeat;
+}
+
+.flexibility {
+	background: url(images/hex3.png) no-repeat;
+}
+
+
+.learn {
+	border: 1px solid #ffffff;
+}
+.mobile-display-content > a{
+	
+padding: 10px;
+	color: #fef9f6;
+	text-decoration: none;
+}
+.purchase {
+	background-color: #21c2f8;
+	border-radius: 10px;
+	
+}
+
+
+/*.mobile-display-content > h1{
+	font-family: "Helvetica";
+	font-weight: normal;
+	color: #fef9f6;
+	font-size: x-large;
+}
+
+
+.mobile-display-content > div > h3,p {
+	font-family: "Verdana";
+	font-weight: normal;
+	color: #fef9f6;
+}
+*/
+
+.social-feeds {
+	float: left;
+	
+}
+
+.images-block {
+	float:right;
+	width: 550px;
+	height: 202px;
+	
+}
+
+.images-block > div {
+	float: left;
+	width: 164px;
+}
+
+.profile-photo {
+	float: left;
+	
+}
+
+.social-feeds-content {
+	float: right;
+	width: 325px;
+	padding-left: 20px;
+}
+
+.people-say:after {
+	
+content: '';
+	clear: both;
+	display: block;
+}
+
+
+.inner-content > .people-say h3,p {
+	text-align: center;
+	/* margin-bottom:  30px; */
+}
+	
+
+.social-feeds-content h4,p {
+	margin: 0;
+}
+
+.adelfox-design > h2 {
+	text-align: center;
+	
+}
+
+.adelfox-design > div {
+	width: 326px;
+	float: left;
+}
+
+
+
